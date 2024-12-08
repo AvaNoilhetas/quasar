@@ -1,9 +1,9 @@
 {
   "name": "quasar-sarah",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar Sarah App",
-  "author": "AvaNoilhetas <a.noilhetas@hotmail.fr>",
+  "description": "Sarah Krespin est née en 1993 à Londres. Elle vit actuellement à Paris et est titulaire d’un Master en recherche, création et plasticités contemporaines à l’École des Arts de la Sorbonne.",
+  "productName": "Sarah Krespin",
+  "author": "Ava N.",
   "type": "module",
   "private": true,
   "scripts": {
@@ -12,6 +12,7 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
+    "deploy": "vercel",
     "postinstall": "quasar prepare"
   },
   "dependencies": {
